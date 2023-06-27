@@ -1,0 +1,62 @@
+* {
+  font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+body {
+  background-color: rgb(251, 232, 211);
+}
+
+article {
+  margin: auto;
+  width: 700px;
+}
+
+.first-section a{
+  text-decoration: none;
+}
+
+.first-section a:hover{
+  text-decoration: underline;
+}
+
+button {
+  border: none;
+  background: none;
+  color: green;
+}
+
+h1,
+i {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+a {
+  color: black;
+}
+
+.first-section {
+  display: flex;
+  align-items: center;
+  color: rgb(163, 75, 153);
+}
+
+.vertical {
+  border: 0;
+  margin-right: 10px;
+  border-left: 4px solid;
+  height: 100px;
+  float: left;
+}
+
+p{
+  margin-bottom: 50px;
+}
+
+li{
+  margin-bottom: 30px;
+}
